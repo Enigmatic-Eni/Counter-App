@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #adebfb;
+    font-family: Courier;
+}
+.container{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+h1{
+    font-size: 3em;
+}
+span{
+    font-size: 5em;
+    font-weight: 700;
+}
+button{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: COurier;
+}
+button:hover{
+    cursor: pointer;
+}
+#increase:hover{
+    background-color: red;
+    color: #fff;
+}
+#reset:hover{
+    background-color: #000;
+    color: #fff;
+}
+#decrease:hover{
+    background-color: green;
+    color: #fff;
+}
+
